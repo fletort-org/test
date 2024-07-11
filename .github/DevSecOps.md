@@ -46,8 +46,8 @@ Following action are made:
   - Test and Coverage Result are also deployed inside GitHub project (comments,
   indicator, ...) with the help of the  [jest-coverage-report](https://github.com/marketplace/actions/jest-coverage-report)
   action.
-  - Test Report are send to [testspace](https://{{ environ('GITHUB_REPOSITORY_OWNER') }}.testspace.com/projects/{{ environ('TESTSPACE_SPACE_ID') }})
-  - Coverage Report are send to [coveralls](https://coveralls.io/github/{{ environ('GITHUB_REPOSITORY') }})
+  - Test Report are send to [testspace](https://fletort-org.testspace.com/projects/68107)
+  - Coverage Report are send to [coveralls](https://coveralls.io/github/fletort-org/test)
   - Test and Coverage HTML reports files are also send inside our global CI Report
   Pages Repository. This step use the local SSH private key stored in the
   `DEPLOY_CI_REPORT_KEY` secret. The associated public key must be added as
